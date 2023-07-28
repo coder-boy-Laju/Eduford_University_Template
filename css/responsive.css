@@ -1,0 +1,88 @@
+@media (max-width:900px) {
+    .container{
+        width: 85%;
+    }
+    .container .nav {
+        padding: 18px 0px;
+    }
+    .hedader_link{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background:rgba(250, 39, 39, 0.863);
+        z-index: 1111;
+        width: 200px;
+        height: 100vh;
+        display: none;
+       
+      }
+    .hedader_link ul li{
+        display: block;
+      }
+      .container .nav .menus{
+        font-size: 20px;
+        color: #ffffff;
+        display: block;
+      }
+    .heder_text h1 {
+        font-size: 23px;
+       
+      }
+      .heder_text p {
+        font-size: 16px;
+        margin: 10px 0px 25px;
+      }
+      .hedader_link .close{
+        display: block;
+        text-align: left;
+        padding-top: 15px;
+        padding-left: 15px;
+        font-size: 20px;
+        color: #ffffff;
+      }
+     /* Course Section Start  */ 
+     .Course{
+      margin-top: 95px;
+    }
+    .Course_box_wrap{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+     align-items: center;
+    /* text-align: center; */
+    }
+    .Course_box {
+      width: 100%;
+    }
+
+    /* Compuse */
+    .compuse_box_wrap{
+      display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+    }
+    
+    .compuse_box_wrap .section_box{
+      margin-top: 40px;
+      width: 100%;
+    
+    }
+    .compuse_hover_text p{
+      position: absolute;
+      bottom: 34%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+     
+    }
+
+    /* section Facilities start here */
+    .Facilities_box_wrap{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+    }
+    .Facilities_box{
+      margin-top: 40px;
+    }
+  
+}
