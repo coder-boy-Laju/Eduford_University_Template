@@ -61,6 +61,10 @@
      flex-wrap: wrap;
      flex-direction: column;
     }
+    .section_box img {
+      display: block;
+      width: 100%;
+  }
     
     .compuse_box_wrap .section_box{
       margin-top: 40px;
@@ -84,5 +88,25 @@
     .Facilities_box{
       margin-top: 40px;
     }
-  
+    /* section student reviews start here  */
+    .student_reviews_box_wrap{
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+    .students_reviews_box{
+    margin-bottom: 20px;
+    }
+    .students_reviews_box_img{
+      padding: 0px 10px;
+    }
+
+    .students_reviews_box_img img{
+    height: 60px;
+    }
+    .students_reviews__text{
+      margin-left: 10px;
 }
+.students_reviews__text p{
+ height: auto;
+}
+  }

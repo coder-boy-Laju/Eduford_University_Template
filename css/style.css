@@ -282,5 +282,57 @@ text-transform: capitalize;
 margin-top: 10px;
 font-size: 16px;
 line-height: 20px;
+}
+
+/* section student reviews start here  */
+.student_reviews{
+  margin-top: 90px;
+  text-align: center;
+}
+.student_reviews_box_wrap{
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+.students_reviews_box{
+  flex-basis: 49%;
+    background-color: #fff3f3;
+    display: flex;
+    padding: 20px;
+    border-radius: 12px;
+}
+.students_reviews_box_img{
+  flex-basis: 32%;
+  padding: 0 20px;
+}
+.students_reviews_box_img img{
+    height: 50px;
+    border-radius: 50%;
+}
+.students_reviews__text{
+      text-align: justify;
+      margin-left: 60px;
+}
+.students_reviews__text p{
+   color: #666;
+    font-size: 14px;
+    height: 42%;
+}
+.students_reviews__text h3{
+    font-weight: 400;
+    margin: 25px 0 10px;
+}
+.students_reviews__text i{
+  color: #e23719;
 
 }
+
+
+
+
+
+
+
+
+
+
